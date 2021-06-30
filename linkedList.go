@@ -67,6 +67,7 @@ func main() {
 	list.prepend(&n3)
 	list.prepend(&n4)
 	list.delete(48)
+	list.delete(48)
 	list.delete(772453345)
 	list.print()
 
