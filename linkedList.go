@@ -70,5 +70,4 @@ func main() {
 	list.delete(48)
 	list.delete(772453345)
 	list.print()
-
 }
