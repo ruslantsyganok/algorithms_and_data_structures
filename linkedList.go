@@ -22,7 +22,8 @@ func (l *linkedList) prepend(node *node) {
 func (l linkedList) print() {
 	head := l.head
 	for l.length != 0 {
-		fmt.Println(head.data)
+		fmt.Printf("%v", head.data)
+		fmt.Printf(" ")
 		head = head.next
 		l.length--
 	}
