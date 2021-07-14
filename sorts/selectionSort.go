@@ -19,4 +19,3 @@ func selectionSort(slice []int){
 		slice[i], slice[minIdx] = slice[minIdx], slice[i]
 	}
 }
-
